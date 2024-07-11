@@ -316,3 +316,13 @@ Serial.print("Humidity: ");
 Serial.println(humString);
 client.publish("esp32/humidity", humString);
 ```
+# Creating the Node-RED flow
+Before creating the flow, you need to have installed in your Raspberry Pi:
+
+Node-RED
+
+Node-RED Dashboard
+
+Mosquitto Broker
+
+After that, import the Node-RED flow provided. Go to the GitHub repository or click the figure below to see the raw file, and copy the code provided.
