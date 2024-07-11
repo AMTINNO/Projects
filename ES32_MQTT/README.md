@@ -20,10 +20,10 @@ Learn what’s MQTT and how it works.
 # Parts Required
 These are the parts required to build the circuit (click the links below to find the best price at Maker Advisor):
 <img src="./Images/MQ03.jpg" width=100% height=100%>
-Raspberry Pi – read Best Raspberry Pi 3 Starter Kits
-ESP32 DOIT DEVKIT V1 Board – read ESP32 Development Boards Review and Comparison
-BME280 sensor module
-1x 5mm LED
-1x 220 Ohm resistor
-Breadboard
-Jumper wires
+-Raspberry Pi – read Best Raspberry Pi 3 Starter Kits
+-ESP32 DOIT DEVKIT V1 Board – read ESP32 Development Boards Review and Comparison
+-BME280 sensor module
+-1x 5mm LED
+-1x 220 Ohm resistor
+-Breadboard
+-Jumper wires
