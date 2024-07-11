@@ -104,6 +104,7 @@ Now, you can upload the following code to your ESP32. The code is commented on w
 # Uploading code
 Now, you can upload the following code to your ESP32. The code is commented on where you need to make changes. You need to edit the code with your own SSID, password and Raspberry Pi IP address.
 
+```
 *********/
  
 #include <WiFi.h>
@@ -258,3 +259,4 @@ void loop() {
     client.publish("esp32/humidity", humString);
   }
 }
+```
