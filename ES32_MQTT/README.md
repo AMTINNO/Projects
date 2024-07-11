@@ -58,4 +58,5 @@ SDI – SDA pin
 We’re going to use I2C communication with the BME280 sensor module. For that, wire the sensor to the ESP32 SDA and SCL pins, as shown in the following schematic diagram.
 
 We’ll also control an ESP32 output, an LED connected to GPIO 4.
+<img src="./Images/MQ05.jpg" width=100% height=100%>
 
