@@ -285,3 +285,7 @@ if (String(topic) == "esp32/output") {
   }
 }
 ```
+In the loop(), new readings are being published every 5 seconds:
+```
+if (now - lastMsg > 5000) { ... }
+```
