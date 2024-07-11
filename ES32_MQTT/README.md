@@ -79,3 +79,25 @@ Rename your folder from pubsubclient-master to pubsubclient
 Move the pubsubclient folder to your Arduino IDE installation libraries folder
 Then, re-open your Arduino IDE
 The library comes with a number of example sketches. See File >Examples > PubSubClient within the Arduino IDE software.
+Important: PubSubClient is not fully compatible with the ESP32, but the example provided in this tutorial is working very reliably during our tests.
+
+# Installing the BME280 library
+To take readings from the BME280 sensor module we’ll use the Adafruit_BME280 library. Follow the next steps to install the library in your Arduino IDE:
+
+Click here to download the Adafruit-BME280 library. You should have a .zip folder in your Downloads folder
+Unzip the .zip folder and you should get Adafruit-BME280-Library-master folder
+Rename your folder from Adafruit-BME280-Library-master to Adafruit_BME280_Library
+Move the Adafruit_BMPE280_Library folder to your Arduino IDE installation libraries folder
+Finally, re-open your Arduino IDE
+Alternatively, you can go to Sketch > Include Library > Manage Libraries and type “adafruit bme280” to search for the library. Then, click install.
+
+# Installing the Adafruit_Sensor library
+To use the BME280 library, you also need to install the Adafruit_Sensor library. Follow the next steps to install the library:
+
+Click here to download the Adafruit_Sensor library. You should have a .zip folder in your Downloads folder
+Unzip the .zip folder and you should get Adafruit_Sensor-master folder
+Rename your folder from Adafruit_Sensor-master to Adafruit_Sensor
+Move the Adafruit_Sensor folder to your Arduino IDE installation libraries folder
+Finally, re-open your Arduino IDE
+Uploading code
+Now, you can upload the following code to your ESP32. The code is commented on where you need to make changes. You need to edit the code with your own SSID, password and Raspberry Pi IP address.
