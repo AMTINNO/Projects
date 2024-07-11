@@ -297,3 +297,22 @@ temperature = bme.readTemperature();
 // (and comment the previous temperature line)
 //temperature = 1.8 * bme.readTemperature() + 32; // Temperature in Fahrenheit
 ```
+You need to convert the temperature float variable to a char array, so that you can publish the temperature reading in the esp32/temperature topic:
+```
+// Convert the value to a char array
+char tempString[8];
+dtostrf(temperature, 1, 2, tempString);
+Serial.print("Temperature: ");
+Serial.println(tempString);
+client.publish("esp32/temperature", tempString);
+```
+The same process is repeated to publish the humidity reading in the esp32/humidity topic:
+```
+humidity = bme.readHumidity();
+// Convert the value to a char array
+char humString[8];
+dtostrf(humidity, 1, 2, humString);
+Serial.print("Humidity: ");
+Serial.println(humString);
+client.publish("esp32/humidity", humString);
+```
