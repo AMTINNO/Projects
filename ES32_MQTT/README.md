@@ -289,3 +289,11 @@ In the loop(), new readings are being published every 5 seconds:
 ```
 if (now - lastMsg > 5000) { ... }
 ```
+By default the ESP32 is sending the temperature in Celsius, but you can uncomment the last line to send the temperature in Fahrenheit:
+```
+// Temperature in Celsius
+temperature = bme.readTemperature(); 
+// Uncomment the next line to set temperature in Fahrenheit 
+// (and comment the previous temperature line)
+//temperature = 1.8 * bme.readTemperature() + 32; // Temperature in Fahrenheit
+```
