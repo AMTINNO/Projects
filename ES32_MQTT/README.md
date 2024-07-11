@@ -33,3 +33,6 @@ These are the parts required to build the circuit (click the links below to find
 -Breadboard
 
 -Jumper wires
+
+# Introducing the BME280 Sensor Module
+The BME280 sensor module reads temperature, humidity, and pressure. Because pressure changes with altitude, you can also estimate altitude. However, in this tutorial we’ll just read temperature and humidity. There are several versions of this sensor module, but we’re using the one shown in the figure below.
