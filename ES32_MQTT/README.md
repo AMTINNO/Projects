@@ -38,3 +38,19 @@ These are the parts required to build the circuit (click the links below to find
 The BME280 sensor module reads temperature, humidity, and pressure. Because pressure changes with altitude, you can also estimate altitude. However, in this tutorial we’ll just read temperature and humidity. There are several versions of this sensor module, but we’re using the one shown in the figure below.
 <img src="./Images/MQ04.jpg" width=100% height=100%>
 The sensor can communicate using either SPI or I2C communication protocols (there are modules of this sensor that just communicate with I2C, these just come with four pins).
+To use SPI communication protocol, use the following pins:
+
+SCK – this is the SPI Clock pin
+
+SDO – MISO
+
+SDI – MOSI
+
+CS – Chip Select
+
+To use I2C communication protocol, the sensor uses the following pins:
+
+SCK – SCL pin
+
+SDI – SDA pin
+
