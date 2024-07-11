@@ -269,3 +269,4 @@ In the reconnect() function, you can subscribe to MQTT topics. In this case, the
 ```
 client.subscribe("esp32/output");
 ```
+In the callback() function, the ESP32 receives the MQTT messages of the subscribed topics. According to the MQTT topic and message, it turns the LED on or off:
