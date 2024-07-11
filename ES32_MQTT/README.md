@@ -62,3 +62,20 @@ We’ll also control an ESP32 output, an LED connected to GPIO 4.
 <img src="./Images/MQ05.jpg" width=100% height=100%>
 Here’s how your circuit should look:
 <img src="./Images/MQ06.jpg" width=100% height=100%>
+
+# Preparing the Arduino IDE
+There’s an add-on for the Arduino IDE that allows you to program the ESP32 using the Arduino IDE and its programming language. Follow one of the next tutorials to prepare your Arduino IDE to work with the ESP32, if you haven’t already.
+
+Windows instructions – ESP32 Board in Arduino IDE
+Mac and Linux instructions – ESP32 Board in Arduino IDE
+After making sure you have the ESP32 add-on installed, you can continue with this tutorial.
+
+Installing the PubSubClient Library
+The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
+
+Click here to download the PubSubClient library. You should have a .zip folder in your Downloads folder
+Unzip the .zip folder and you should get pubsubclient-master folder
+Rename your folder from pubsubclient-master to pubsubclient
+Move the pubsubclient folder to your Arduino IDE installation libraries folder
+Then, re-open your Arduino IDE
+The library comes with a number of example sketches. See File >Examples > PubSubClient within the Arduino IDE software.
