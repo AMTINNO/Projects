@@ -7,3 +7,4 @@ In this example, there’s a Node-RED application that controls ESP32 outputs an
 We’ll use the Mosquitto broker installed on the same Raspberry Pi. The broker is responsible for receiving all messages, filtering the messages, decide who is interested in them and publishing the messages to all subscribed clients.
 
 The following figure shows an overview of what we’re going to do in this tutorial.
+<img src="./Images/MQ02.jpg" width=100% height=100%>
