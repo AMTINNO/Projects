@@ -266,3 +266,6 @@ The ESP32 is subscribed to the esp32/output topic to receive the messages publis
 
 # Subscribing to MQTT topics
 In the reconnect() function, you can subscribe to MQTT topics. In this case, the ESP32 is only subscribed to the esp32/output:
+```
+client.subscribe("esp32/output");
+```
