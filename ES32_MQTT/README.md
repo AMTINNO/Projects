@@ -260,3 +260,13 @@ void loop() {
   }
 }
 ```
+This code publishes temperature and humidity readings on the esp32/temperature and esp32/humidity topics trough MQTT protocol.
+
+The ESP32 is subscribed to the esp32/output topic to receive the messages published on that topic by the Node-RED application. Then, accordingly to the received message, it turns the LED on or off.
+
+# Subscribing to MQTT topics
+In the reconnect() function, you can subscribe to MQTT topics. In this case, the ESP32 is only subscribed to the esp32/output:
+
+```	
+client.subscribe("esp32/output");
+```
