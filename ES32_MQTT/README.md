@@ -70,7 +70,7 @@ Windows instructions – ESP32 Board in Arduino IDE
 Mac and Linux instructions – ESP32 Board in Arduino IDE
 After making sure you have the ESP32 add-on installed, you can continue with this tutorial.
 
-Installing the PubSubClient Library
+# Installing the PubSubClient Library
 The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
 
 Click here to download the PubSubClient library. You should have a .zip folder in your Downloads folder
