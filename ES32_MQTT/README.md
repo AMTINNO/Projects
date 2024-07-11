@@ -270,3 +270,18 @@ In the reconnect() function, you can subscribe to MQTT topics. In this case, the
 client.subscribe("esp32/output");
 ```
 In the callback() function, the ESP32 receives the MQTT messages of the subscribed topics. According to the MQTT topic and message, it turns the LED on or off:
+```
+// If a message is received on the topic esp32/output, you check if the message is either "on" or "off". 
+// Changes the output state according to the message
+if (String(topic) == "esp32/output") {
+  Serial.print("Changing output to ");
+  if (messageTemp == "on") {
+    Serial.println("on");
+    digitalWrite(ledPin, HIGH);
+  }
+  else if (messageTemp == "off") {
+    Serial.println("off");
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
