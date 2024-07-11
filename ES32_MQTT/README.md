@@ -17,6 +17,6 @@ You should be familiar with the Raspberry Pi – read Getting Started with Raspb
 You should have the Raspbian operating system installed in your Raspberry Pi – read Installing Raspbian Lite, Enabling and Connecting with SSH.
 You need Node-RED installed on your Pi and Node-RED Dashboard.
 Learn what’s MQTT and how it works.
-Parts Required
+# Parts Required
 These are the parts required to build the circuit (click the links below to find the best price at Maker Advisor):
 <img src="./Images/MQ03.jpg" width=100% height=100%>
